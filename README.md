@@ -1,2 +1,2 @@
-# Detector-de-arvores
-Nesse projeto será feito um detector de arvores que poderá dizer se naquela imagem tem uma árvore ou não.
+# Detector-de-Desmatamento
+Nesse projeto será feito um detector de desmatamento que poderá dizer se naquela imagem tem uma área que está sem árvores.
