@@ -9,7 +9,7 @@ imgGray = 0.2989 * R + 0.5870 * G + 0.1140 * B
 plt.imshow(imgGray, cmap='gray')
 plt.show()
 
-Gx = np.array([[1.0, 0.0, -1.0], [2.0, 0.0, -2.0], [1.0, 0.0, -1.0]])
+Gx = np.array([[-1.0, 0.0, 1.0], [-2.0, 0.0, 2.0], [-1.0, 0.0, 1.0]])
 Gy = np.array([[1.0, 2.0, 1.0], [0.0, 0.0, 0.0], [-1.0, -2.0, -1.0]])
 [rows, columns] = np.shape(imgGray)
 sobel_filtered_image = np.zeros(shape=(rows, columns))
